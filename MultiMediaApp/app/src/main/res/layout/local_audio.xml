@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#B8BEE3"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/play_pause_button"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_play_button"
+        android:contentDescription="@string/play_button_desc"
+        android:tag="@string/state_play">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title_TV"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

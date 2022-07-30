@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Connected Weather</string>
+
+    <string name="fetch_error">Unable to fetch results. Please check your internet connection.</string>
+    <string name="action_share">Share</string>
+    <string name="action_view_forecast">View forecast</string>
+    <string name="action_view_map">View Map</string>
+
+</resources>

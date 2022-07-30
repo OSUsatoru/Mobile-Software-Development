@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MediaPlayer69</string>
+    <string name="title">Media Player App</string>
+
+    <string name="button_spotify">Spotify</string>
+    <string name="button_youtube">YouTube</string>
+    <string name="button_local_files">Local Files</string>
+    <string name="button_history">Browsing History</string>
+
+    <string name="play_button_desc">Play/Pause Button</string>
+
+    <string name="state_play">play</string>
+    <string name="state_pause">pause</string>
+    <string name="spotify_textView">Search Spotify:</string>
+    <string name="spotify_searchBox">Search an Artist, Song, or Podcast...</string>
+    <string name="spotify_Button">Search</string>
+
+    <string name="video_title">Video</string>
+    <string name="search_title">Search Video</string>
+    <string name="thumbnail_title">Video Thumbnail</string>
+
+
+</resources>

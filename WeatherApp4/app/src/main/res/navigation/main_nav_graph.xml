@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/forecast_search">
+
+    <fragment
+        android:id="@+id/forecast_search"
+        android:name="com.example.android.roomyweather.ui.ForecastSearchFragment"
+        android:label = "@string/label_forecast_search">
+        <action
+            android:id="@+id/navigate_to_forecast_detail"
+            app:destination = "@id/forecast_detail"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forecast_detail"
+        android:name="com.example.android.roomyweather.ui.ForecastDetailFragment"
+        android:label = "@string/label_forecast_detail" >
+        <argument
+            android:name="city"
+            app:argType="com.example.android.roomyweather.data.ForecastCity"/>
+        <argument
+            android:name="period"
+            app:argType="com.example.android.roomyweather.data.ForecastPeriod"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmark_forecast"
+        android:name="com.example.android.roomyweather.ui.BookmarkedForecastFragment"
+        android:label = "@string/label_bookmarked_forecast">
+        <action
+            android:id="@+id/navigate_to_forecast_search"
+            app:destination = "@id/forecast_search"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.android.roomyweather.ui.SettingsFragment"
+        android:label = "@string/label_settings" />
+
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/activity_local_files.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/activity_spotify.xml" value="0.2421875" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/activity_spotify_item.xml" value="0.2421875" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/local_audio.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lance/Documents/CollegeLife/OSU/Courses/CS 492 (Mobile Software Development)/Final Project/final-project-team-69/app/src/main/res/layout/local_song.xml" value="0.22826086956521738" />
+        <entry key="..\:/cs492/final-project-team-69/app/src/main/res/layout/youtube_main_activity.xml" value="0.2390625" />
+        <entry key="..\:/cs492/final-project-team-69/app/src/main/res/layout/youtube_video_item.xml" value="0.2390625" />
+        <entry key="..\:/cs492/final-project-team-69/app/src/main/res/layout/youtubevideo_layout.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_spotify.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/activity_spotify_item.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/local_audio.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

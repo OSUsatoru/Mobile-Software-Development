@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/tv_weather_month"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Jan"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_date"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weather_month"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="14"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_short_description"
+        android:layout_width="233dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="31dp"
+        android:layout_toRightOf="@id/tv_weather_month"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="description"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_low_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weather_short_description"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tv_weather_date"
+        android:gravity="center_horizontal"
+        android:text="33F"
+        android:textColor="#4BB9BF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_precip_per"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weather_short_description"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tv_weather_low_temp"
+        android:gravity="center_horizontal"
+        android:text="10% precip"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_high_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weather_short_description"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_toRightOf="@id/tv_weather_precip_per"
+        android:gravity="center_horizontal"
+        android:text="50F"
+        android:textColor="#E37272"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_below="@+id/tv_weather_high_temp"
+        android:background="#B49A9A"/>
+
+</RelativeLayout>
+
